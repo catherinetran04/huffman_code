@@ -4,7 +4,7 @@ public class DecodeEncodeTester {
         HuffmanCodeTree tree = new HuffmanCodeTree(book);
 
         /////////////////////////////////////////////////
-        // TEST 1: Simple DecodeEncode (2 points)
+        // TEST 1: Simple DecodeEncode 
         /////////////////////////////////////////////////
         String original = "Once upon a midnight dreary, while I pondered, weak and weary,\n" +
                 "Over many a quaint and curious volume of forgotten lore—\n" +
@@ -19,7 +19,7 @@ public class DecodeEncodeTester {
         System.out.println(decoded);
 
         /////////////////////////////////////////////////
-        // Test 2: DecodeEncode real file (2 points)
+        // Test 2: DecodeEncode real file
         // this will assume that you've got the right test files in the right folder.
         // see the FileIOAssistance to get that setup. If you can't get it setup don't sweat it too much
         // the autograder will be setup right, and if you past test 1 you probably pass test 2.
@@ -46,7 +46,7 @@ public class DecodeEncodeTester {
         System.out.println("Go check " + bookFileID + ".student.txt it should be peter pan.");
 
         /////////////////////////////////////////////////
-        // Test 3 (not in autograder -- this one's just for you)
+        // Test 3 
         // This should run pretty quickly -- a second or two depending on computer.
         // decode the other test files.
         /////////////////////////////////////////////////
@@ -68,8 +68,7 @@ public class DecodeEncodeTester {
             String text = tree.decode(code);
             FileIOAssistance.writeFile(file, text);
         }
-        // for extra fun -- go check out the file size of the encoded and not encoded files!
-
+   
 
 
 
