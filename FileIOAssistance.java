@@ -7,7 +7,6 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 /**
- * @Author Daniel Kluver
  * This class helps read and write files as Strings.
  */
 public class FileIOAssistance {
