@@ -11,15 +11,8 @@ import java.util.Iterator;
  *
  * In several places in this project we're going to need a way to represent series of bits (0/1)
  * This class is intended to represent this idea, where 1 = true and 0 = false.
- * As with all classes you're given and asked to use, DO NOT get lost in the private code for the
- * class, focus on method names and javadocs.
  *
- * This class is a bit simplified over a full features LIST behavior -- you can add bits to it,
- * but you can't really modify the bits after-the-fact. That should be find for our purposes.
- *
- * Internally, this class is mostly a specialization over java BitSet class, which also
- * represents a series of bits, but is kind of awful to use. Full credit to Mark Nie for making
- * it work.
+ * This class is a bit simplified over a full features LIST behavior 
  */
 public class BinarySequence implements Iterable<Boolean>, Cloneable{
     private BitSet bits;
